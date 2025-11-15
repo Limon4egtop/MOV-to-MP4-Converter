@@ -6,6 +6,27 @@ A Python script with GUI for converting MOV files to MP4 format.
 - Python 3.6+
 - FFmpeg (can be installed automatically)
 
+## Install FFmpeg
+### Windows (Chocolatey)
+```powershell
+choco install ffmpeg -y
+```
+### macOS (Homebrew)
+```
+brew install ffmpeg
+# При необходимости сначала установите Homebrew:
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+### Linux (Ubuntu / Debian, APT)
+```
+sudo apt update
+sudo apt install -y ffmpeg
+```
+### Check after installation
+```
+ffmpeg -version
+```
+
 ## Quick Start
 1. Clone this repository
 2. Run: `python mov_to_mp4_converter.py`
